@@ -37,6 +37,3 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 
 # Start Docker service
 sudo service docker start
-
-# Pull the Docker image from ECR and capture any errors
- docker compose up -d
